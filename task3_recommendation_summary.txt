@@ -1,0 +1,32 @@
+TASK 3 - RECOMMENDATION SYSTEM ANALYSIS
+==================================================
+TF-IDF matrix shape: (8787, 55)
+
+Because you watched 'Dick Johnson Is Dead', you might also like:
+        title  type     listed_in  similarity_score
+Final Account Movie Documentaries               1.0
+The Last Days Movie Documentaries               1.0
+    Good Hair Movie Documentaries               1.0
+ Giving Voice Movie Documentaries               1.0
+        Bully Movie Documentaries               1.0
+
+Because you watched 'Midnight Mass', you might also like:
+                     title    type                          listed_in  similarity_score
+   Brand New Cherry Flavor TV Show TV Dramas, TV Horror, TV Mysteries               1.0
+ The Haunting of Bly Manor TV Show TV Dramas, TV Horror, TV Mysteries               1.0
+                   Ratched TV Show TV Dramas, TV Horror, TV Mysteries               1.0
+The Haunting of Hill House TV Show TV Dramas, TV Horror, TV Mysteries               1.0
+                  The Mist TV Show TV Dramas, TV Horror, TV Mysteries               1.0
+
+Because you watched 'Ganglands', you might also like:
+           title    type                                                     listed_in  similarity_score
+Bangkok Breaking TV Show Crime TV Shows, International TV Shows, TV Action & Adventure               1.0
+   Fatal Destiny TV Show Crime TV Shows, International TV Shows, TV Action & Adventure               1.0
+          Dealer TV Show Crime TV Shows, International TV Shows, TV Action & Adventure               1.0
+     Nowhere Man TV Show Crime TV Shows, International TV Shows, TV Action & Adventure               1.0
+      Undercover TV Show Crime TV Shows, International TV Shows, TV Action & Adventure               1.0
+
+--- Evaluation: genre overlap of recommendations vs seed title ---
+'Dick Johnson Is Dead': average genre-overlap (Jaccard) with its top-5 recommendations = 1.00
+'Midnight Mass': average genre-overlap (Jaccard) with its top-5 recommendations = 1.00
+'Ganglands': average genre-overlap (Jaccard) with its top-5 recommendations = 1.00

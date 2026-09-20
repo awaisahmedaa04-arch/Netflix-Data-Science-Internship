@@ -1,0 +1,26 @@
+TASK 4 - TREND PREDICTION ANALYSIS
+==================================================
+
+Yearly content additions used for modeling (2015-2020, excluding partial years):
+ year_added  titles_added
+       2015            82
+       2016           426
+       2017          1185
+       2018          1647
+       2019          2014
+       2020          1879
+
+Average year-over-year growth rate: 130.4%
+
+Linear regression fit: R^2 = 0.91, MAE = 206.8 titles/year
+
+Forecast for future years:
+  2021: ~2627 titles predicted to be added
+  2022: ~3033 titles predicted to be added
+  2023: ~3439 titles predicted to be added
+
+--- INTERPRETATION ---
+The linear model captures the broad growth trend in content additions from
+2015-2020, but a simple straight-line fit likely overstates future growth,
+since real catalogs tend to plateau. The forecast should be read as an
+optimistic upper bound rather than a precise prediction.

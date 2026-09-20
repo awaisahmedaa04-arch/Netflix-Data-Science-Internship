@@ -1,0 +1,53 @@
+TASK 1 - DATA CLEANING & PREPROCESSING
+==================================================
+Raw dataset shape: 8790 rows x 10 columns
+Columns: ['show_id', 'type', 'title', 'director', 'country', 'date_added', 'release_year', 'rating', 'duration', 'listed_in']
+
+--- Missing values before cleaning ---
+show_id         0
+type            0
+title           0
+director        0
+country         0
+date_added      0
+release_year    0
+rating          0
+duration        0
+listed_in       0
+
+--- Missing values after standardizing placeholder text ---
+show_id         0
+type            0
+title           0
+director        0
+country         0
+date_added      0
+release_year    0
+rating          0
+duration        0
+listed_in       0
+
+Fully duplicated rows: 0
+Duplicate rows by (title, type, country): 3
+
+--- Missing values after cleaning ---
+show_id            0
+type               0
+title              0
+director           0
+country            0
+primary_country    0
+date_added         0
+year_added         0
+month_added        0
+release_year       0
+rating             0
+duration           0
+duration_value     0
+duration_unit      0
+listed_in          0
+genres             0
+primary_genre      0
+
+Final cleaned dataset shape: 8787 rows x 17 columns
+Rows removed (duplicates): 3

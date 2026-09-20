@@ -1,0 +1,53 @@
+TASK 2 - EXPLORATORY DATA ANALYSIS
+==================================================
+Dataset: 8787 titles, 17 columns
+Release years span: 1925 - 2021
+
+Content type distribution:
+type
+Movie      6124
+TV Show    2663
+
+Top 10 countries by content count:
+primary_country
+United States     3240
+India             1056
+United Kingdom     638
+Pakistan           420
+Not Given          287
+Canada             271
+Japan              259
+South Korea        214
+France             213
+Spain              182
+
+Top 10 genres:
+genres
+International Movies        2752
+Dramas                      2424
+Comedies                    1673
+International TV Shows      1348
+Documentaries                869
+Action & Adventure           859
+TV Dramas                    761
+Independent Movies           755
+Children & Family Movies     641
+Romantic Movies              616
+
+Content added per year (top of range):
+year_added
+2014      24
+2015      82
+2016     426
+2017    1185
+2018    1647
+2019    2014
+2020    1879
+2021    1498
+
+--- KEY FINDINGS ---
+1. Movies dominate the catalog (6124 vs 2663 TV Shows).
+2. 'United States' produces the most content (3240 titles), followed by 'India' and 'United Kingdom'.
+3. 'International Movies' is the most common genre (2752 titles).
+4. Content additions peaked around 2019 with 2014 titles added that year.
+5. Most common content rating is 'TV-MA'.
